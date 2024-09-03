@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+   display: flex;
+   justify-content: center;
+}
+.page{
+    padding-top: 1.2rem;
+    margin-top: 2rem;
+    height: 25rem;
+    width: 20rem;
+    border:1px solid blanchedalmond;
+    border-radius: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 600;
+}
+h1{
+    display: inline;
+}
+.img{
+    background-image: url(yDb.jpg);
+    background-size: cover;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+  margin-left: 7rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.2rem;
+
+}
+input{
+    padding: 8px;
+    border: 1px solid grey ;
+    border-radius: 4px;
+    padding-right: 110px;
+}
+button{
+padding-left: 125px;
+padding-right: 125px;
+padding-top: 15px;
+padding-bottom: 15px;
+color: white;
+background-color: green;
+border: none;
+font-size: 16px;
+margin-bottom: 15px;
+}
+lable{
+    font-size: 15px;
+}
